@@ -17,3 +17,13 @@ cities = ['Salvador', 'Ubatuba', 'Belo Horizonte']
 states = ['BA', 'SP', 'MG', 'RJ']
 
 print(zipper(cities, states))
+
+
+
+#Using zip fuction python
+
+from itertools import zip_longest
+
+l1 = ['Salvador', 'Ubatuba', 'Belo Horizonte']
+l2 = ['BA', 'SP', 'MG', 'RJ']
+print(list(zip(l1, l2)))
